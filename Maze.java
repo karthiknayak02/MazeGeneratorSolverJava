@@ -1,5 +1,3 @@
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

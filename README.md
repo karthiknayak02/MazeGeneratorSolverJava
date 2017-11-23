@@ -37,7 +37,7 @@ The GUI has the following functionality for the user: <br/>
 # How to compile 
 Download and open directory in terminal <br/>
 `javac Maze.java	controlBoard.java	mazeGenerator.java	mazeSolver.javaCell.java`
-- OR 
+- OR <br/>
 `javac *.java`
 
 # How to run

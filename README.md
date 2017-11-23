@@ -1,14 +1,42 @@
 # MazeGeneratorSolverJava
 Java stand-alone application that generates and solves mazes
 
+# Features
+The program runs in two primary modes: maze generation and computer-automated maze solving.
 
-![Grid](/Images/1.png?raw=true "hello")
+![Grid](/Images/1.png)
 
-![Generated & Solved](/Images/2.png?raw=true)
+  ## 1. Maze Generation
+The program generates a maze using a randomized depth-first search algorithm. The user can visualize the maze construction based on user-selected parameters (resolution in `rows` and `columns`, `speed`). 
+The result – the randomly generated maze
 
-![Generating](/Images/3.png?)
+![Generating](/Images/3.png)
+
+  ## 2. Automated Depth-First Search Solver
+The program solves the maze using a depth-first search algorithm and a stack. The solution can be visualized as the solver runs. The speed of the visualization of the solver’s path through the maze must be controllable by the user. 
+The cells that are on the active path in one color, backtracked cells (visited but determined to be dead ends) in a
+second color, and unvisited cells in the default color. 
 
 ![Solving](/Images/4.png)
+
+  ## 3. The Graphical User Interface
+The GUI has the following functionality for the user:
+`Generate`      : Generate a new maze based on current parameters
+`Solve`         : Start the automated solver
+`Stop`          : Stop the automated generator/solver
+`Speed`         : Change speed of the visualization of maze generation and solver
+`Rows/columns`  : Set maze resolution (10x10 to 50x50; rows/cols independent)
+
+   ### Other features
+`Time`            : Display a running time it takes to generate/solve at a given speed
+`Percent visited` : Displays a running percentage of number of cells visited
+`Status`          : Display a running status of the grid
+
+![Generated & Solved](/Images/2.png)
+
+
+
+
 
 
 

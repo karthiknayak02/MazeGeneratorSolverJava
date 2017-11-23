@@ -34,6 +34,15 @@ The GUI has the following functionality for the user: <br/>
 
 ![Generated & Solved](/Images/2.png)
 
+# How to compile 
+Download and open directory in terminal 
+`javac Maze.java	controlBoard.java	mazeGenerator.java	mazeSolver.javaCell.java`
+ <br/> OR <br/>
+`javac *.java`
+
+# How to run
+`java Maze`
+
 
 
 

@@ -20,7 +20,7 @@ second color, and unvisited cells in the default color.
 ![Solving](/Images/4.png)
 
   ## 3. The Graphical User Interface
-The GUI has the following functionality for the user:
+The GUI has the following functionality for the user: <br/>
 `Generate`      : Generate a new maze based on current parameters <br/>
 `Solve`         : Start the automated solver <br/>
 `Stop`          : Stop the automated generator/solver <br/>

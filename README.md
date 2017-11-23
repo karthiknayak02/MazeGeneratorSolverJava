@@ -13,7 +13,7 @@ The result – the randomly generated maze
 ![Generating](/Images/3.png)
 
   ## 2. Automated Depth-First Search Solver
-The program solves the maze using a depth-first search algorithm and a stack. The solution can be visualized as the solver runs. The speed of the visualization of the solver’s path through the maze must be controllable by the user. 
+The program solves the maze using a depth-first search algorithm and a stack. The solution can be visualized as the solver runs. The speed of the visualization of the solver’s path through the maze must be controllable by the user. <br/>
 The cells that are on the active path in one color, backtracked cells (visited but determined to be dead ends) in a
 second color, and unvisited cells in the default color. 
 
@@ -28,9 +28,9 @@ The GUI has the following functionality for the user:
 `Rows/columns`  : Set maze resolution (10x10 to 50x50; rows/cols independent) <br/>
 
    ### Other features
-`Time`            : Display a running time it takes to generate/solve at a given speed
-`Percent visited` : Displays a running percentage of number of cells visited
-`Status`          : Display a running status of the grid
+`Time`            : Display a running time it takes to generate/solve at a given speed <br/>
+`Percent visited` : Displays a running percentage of number of cells visited <br/>
+`Status`          : Display a running status of the grid <br/>
 
 ![Generated & Solved](/Images/2.png)
 

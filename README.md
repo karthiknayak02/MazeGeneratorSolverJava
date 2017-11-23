@@ -7,7 +7,7 @@ The program runs in two primary modes: maze generation and computer-automated ma
 ![Grid](/Images/1.png)
 
   ## 1. Maze Generation
-The program generates a maze using a randomized depth-first search algorithm. The user can visualize the maze construction based on user-selected parameters (resolution in `rows` and `columns`, `speed`). 
+The program generates a maze using a randomized depth-first search algorithm. The user can visualize the maze construction based on user-selected parameters (resolution in `rows` and `columns`, `speed`).  <br/>
 The result – the randomly generated maze
 
 ![Generating](/Images/3.png)
@@ -21,11 +21,11 @@ second color, and unvisited cells in the default color.
 
   ## 3. The Graphical User Interface
 The GUI has the following functionality for the user:
-`Generate`      : Generate a new maze based on current parameters
-`Solve`         : Start the automated solver
-`Stop`          : Stop the automated generator/solver
-`Speed`         : Change speed of the visualization of maze generation and solver
-`Rows/columns`  : Set maze resolution (10x10 to 50x50; rows/cols independent)
+`Generate`      : Generate a new maze based on current parameters <br/>
+`Solve`         : Start the automated solver <br/>
+`Stop`          : Stop the automated generator/solver <br/>
+`Speed`         : Change speed of the visualization of maze generation and solver <br/>
+`Rows/columns`  : Set maze resolution (10x10 to 50x50; rows/cols independent) <br/>
 
    ### Other features
 `Time`            : Display a running time it takes to generate/solve at a given speed
